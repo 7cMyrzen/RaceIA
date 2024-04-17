@@ -4,6 +4,7 @@
     --gray : #666666;
     --background :#30333b;
     --white : #ffffff;
+    --red : #ff0000;
 }
 
 @font-face {
@@ -79,7 +80,7 @@ nav a {
 
 nav a:hover {
     font-weight: bolder;
-    color: var(--black);
+    color: var(--red);
 }
 
 
@@ -131,4 +132,8 @@ nav a:hover {
 .box:hover {
     box-shadow: 10px 10px 20px var(--black);
     scale: 1.05;
+}
+
+canvas {
+    color: var(--white);
 }
