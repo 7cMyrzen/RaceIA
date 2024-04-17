@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/board.css">
+    <title>RaceIA</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+    <!-- Barre de navigation -->
+    <nav>
+        <a class="logo"><img src="../assets/img/x32raceia.png" alt="logo"></a>
+        <a>RaceIA</a>
+        <div class="right-nav">
+            <a href="/">Home</a>
+            <a href="/board">Board</a>
+            <a href="#"><img src="../assets/img/x32github.png"></a>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+    <!-- Graphique de haut de page -->
+    <div class="body">
+        <div class="topchart">
+            <div class="box" onclick="openModal('graph1')"><canvas id="myChart1"></canvas></div>
+            <div class="box" onclick="openModal('graph2')"><canvas id="myChart2"></canvas></div>
+            <div class="box" onclick="openModal('graph3')"><canvas id="myChart3"></canvas></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+
+
+    <!-- Modal -->
+
+    <div class="gmodal" id="graph1">
+        <div class="gmodal-header">
+            <div class="title">Graphique 1</div>
+            <button onclick="closeModals()" class="close-button">&times;</button>
+        </div>
+        <div class="gmodal-body">
+            <div class="gmodal-graph"><canvas id="modalChart1"></canvas></div>
+            <div class="gmodal-text"></div>
+        </div>
+    </div>
+
+    <div class="gmodal" id="graph2">
+        <div class="gmodal-header">
+            <div class="title">Graphique 2</div>
+            <button onclick="closeModals()" class="close-button">&times;</button>
+        </div>
+        <div class="gmodal-body">
+            <div class="gmodal-graph"><canvas id="modalChart2"></canvas></div>
+            <div class="gmodal-text"></div>
+        </div>
+    </div>
+
+    <div class="gmodal" id="graph3">
+        <div class="gmodal-header">
+            <div class="title">Graphique 3</div>
+            <button onclick="closeModals()" class="close-button">&times;</button>
+        </div>
+        <div class="gmodal-body">
+            <div class="gmodal-graph"><canvas id="modalChart3"></canvas></div>
+            <div class="gmodal-text"></div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../assets/js/graph.js"></script>
+    <script src="../assets/js/modal.js"></script>
+    <script src="../assets/js/test.js"></script>
+
+</body>
