@@ -8,7 +8,7 @@ import (
 
 // BoardHandler est le gestionnaire pour la route /board
 func BoardHandler(w http.ResponseWriter, r *http.Request) {
-	boardFilePath := "templates/board.html"
+	boardFilePath := "templates/board2.html"
 	boardFile, err := template.ParseFiles(boardFilePath)
 
 	if err != nil {

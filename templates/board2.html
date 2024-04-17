@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/board2.css">
+    <title>RaceIA</title>
+</head>
+<body>
+    <nav>
+        <a class="logo"><img src="../assets/img/x32raceia.png" alt="logo"></a>
+        <a>RaceIA</a>
+        <div class="right-nav">
+            <a href="/">Home</a>
+            <a href="/board">Board</a>
+            <a href="#"><img src="../assets/img/x32github.png"></a>
+        </div>
+    </nav>
+
+    <h1>Control Panel</h1>
+
+    <main>
+        <div class="left">
+            <div class="chart">
+                <div class="box" onclick="openModal('graph1')"><canvas id="myChart1"></canvas></div>
+                <div class="box" onclick="openModal('graph3')"><canvas id="myChart3"></canvas></div>
+            </div>
+            <div class="speed">
+                <div class="box" onclick="openModal('graph2')"><canvas id="myChart2"></canvas></div>
+            </div>
+        </div>
+
+        <div class="right">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course ID</th>
+                        <th>Tours</th>
+                        <th>Vitesse</th>
+                        <th>Temps</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>16 km/h</td>
+                        <td>3.64 s</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>14 km/h</td>
+                        <td>5.69 s</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>4</td>
+                        <td>18 km/h</td>
+                        <td>8.11 s</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../assets/js/graph.js"></script>
+</body>
+</html>

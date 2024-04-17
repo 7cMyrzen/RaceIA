@@ -2,7 +2,7 @@
     --black : #000000;
     --dark-gray : #333333;
     --gray : #666666;
-    --background :#30333b;
+    --background :#000e35;
     --white : #ffffff;
     --red : #ff0000;
 }
@@ -110,7 +110,7 @@ nav a:hover {
     padding: 0 10px;
 }
 
-.box {
+.boxe {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,7 +129,7 @@ nav a:hover {
     overflow: hidden;
 }
 
-.box:hover {
+.boxe:hover {
     box-shadow: 10px 10px 20px var(--black);
     scale: 1.05;
 }

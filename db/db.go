@@ -16,6 +16,12 @@ type RobotData struct {
 	Tri_z    float64 `json:"tri_z"`
 }
 
+type RaceData struct {
+	Id        int     `json:"id"`
+	TotalTime string  `json:"total_time"`
+	AvgSpeed  float64 `json:"avg_speed"`
+}
+
 var db *sql.DB
 var err error
 

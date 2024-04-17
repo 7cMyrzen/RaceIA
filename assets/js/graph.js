@@ -42,8 +42,8 @@ function getData(data) {
             var FloatDistance = parseFloat(data[newLenData - 1].distance);
             speed.push(FloatSpeed);
             distance.push(FloatDistance);
-            if (speed.length > 6) {
-                last6ofspeed = speed.slice(-6);
+            if (speed.length > 25) {
+                last6ofspeed = speed.slice(-25);
             } else {
                 last6ofspeed = speed;
             }
