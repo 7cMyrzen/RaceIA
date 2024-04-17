@@ -18,6 +18,13 @@ const chart2 = new Chart(ctx2, {
         }]
     },
     options: {
+        plugins: {
+            legend: {
+                labels: {
+                    color: 'white'
+                }
+            },
+        },
         scales: {
             y: {
                 beginAtZero: true
@@ -96,6 +103,14 @@ const chart1 = new Chart(ctx1, {
         }]
     },
     options: {
+        plugins: {
+            legend: {
+                labels: {
+                    // Changer la couleur du texte
+                    color: 'white'
+                }
+            }
+        },
         scales: {
             y: {
                 beginAtZero: true
@@ -116,4 +131,14 @@ const chart3 = new Chart(ctx3, {
             borderWidth: 1
         }]
     },
+    options: {
+        plugins: {
+            legend: {
+                labels: {
+                    // Changer la couleur du texte
+                    color: 'white'
+                }
+            }
+        }
+    }
 });
